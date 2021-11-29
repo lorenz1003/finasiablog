@@ -1,0 +1,33 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.background-image
+{
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
+.container
+{
+    margin-top: 8%;
+}
+.inner
+{
+    overflow: hidden;
+}
+.inner img
+{
+    transition: all 1.5s ease;
+}
+.inner:hover img
+{
+    transform: scale(1.5);
+}
+
+
